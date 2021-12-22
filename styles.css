@@ -48,5 +48,40 @@ header{
 
 /* Main */
 
+/* Main - Title */
+
+.title{
+    background-color: #1F2937;
+}
+
+.title-left-text-top{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.title-left-text-bottom{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.title-left-button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: fit-content;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+.title-right-image-placeholder{
+    background-color: #6d747d;
+    color: #E5E7EB;
+    width: fit-content;
+    padding: 80px;
+    margin: 0px;
+    border-radius: 5px;
+}
+
 
 /* Footer */
