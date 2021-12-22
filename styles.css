@@ -1,7 +1,15 @@
-/* All */
+/* All
+
+TO DO::
+  Nope, break things down in the context of how they are supposed to be positioned
+ For e.g in the header, i only need one to go left and another to right
+ So two boxes/divs would suffice
+
+
+*/
 
 *{
-    margin: 0%;
+    margin: 0;
 }
 
 a{
@@ -18,7 +26,7 @@ header{
 
 .bar{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 
@@ -26,12 +34,12 @@ header{
     font-size: 24px;
     color: #F9FAF8;
     flex: 1;
-    padding: 35px;
+    padding-top: 25px;
 }
 
 .bar-link{
     display: flex;
-    padding: 35px;
+    padding-top: 25px;
 }
 
 .bar-link1{
@@ -52,6 +60,8 @@ header{
 
 .title{
     background-color: #1F2937;
+    display:flex;
+    justify-content: space-around;
 }
 
 .title-left-text-top{
@@ -80,7 +90,6 @@ header{
     width: fit-content;
     padding: 80px;
     margin: 0px;
-    border-radius: 5px;
 }
 
 
