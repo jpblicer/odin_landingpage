@@ -1,10 +1,9 @@
 /* All
 
 TO DO::
-  Nope, break things down in the context of how they are supposed to be positioned
- For e.g in the header, i only need one to go left and another to right
- So two boxes/divs would suffice
+ Fix call to action section
 
+ add spacing/ padding/ margin/ w.e
 
 */
 
@@ -36,6 +35,8 @@ h4{
 
 header{
     background-color: #1F2937;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .header_left{
@@ -54,6 +55,8 @@ header{
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 
@@ -90,6 +93,8 @@ header{
 .box_boxes{
     display: flex;
     justify-content: space-evenly; 
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .box_boxes1{
@@ -141,6 +146,8 @@ header{
 
 .quote{
     background-color: #E5E7EB;
+    padding-top: 25px;
+    padding-bottom: 25px;
 
 }
 .quote_text{
@@ -154,11 +161,19 @@ header{
 .quote_author{
     display:flex;
     justify-content: center;
+    padding-left: 500px;
     font-size: 25px;
     color: #1F2937;
 }
 
+/* Main - call to action */
+
 .action{
+    padding-left: 30%;
+    padding-top: 25px;
+}
+
+.action_box{
     height: 100px;
     width: 800px;
     background-color: #3882f6;
@@ -189,6 +204,7 @@ header{
 
 .action_box_right_button_text{
     font-size: 18px;
+    
 }
 
 
@@ -199,4 +215,5 @@ footer{
     justify-content: center;
     color: #F9FAF8;
     background-color: #1F2937;
+    padding-top: 25px;
 }
