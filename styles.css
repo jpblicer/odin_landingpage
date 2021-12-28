@@ -19,23 +19,30 @@ a{
 }
 
 h1{
-    font-size: 48px;
+  font-size: 48px;
     font-weight: extra-bold;
-    color: #F9FAF8;
+    color: #F9FAF8;  
+}
+
+h4{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
 }
 
 /* Header */
 
 header{
     background-color: #1F2937;
-
 }
 
 .header_left{
     font-size: 24px;
     color: #F9FAF8;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
@@ -46,7 +53,7 @@ header{
 .title{
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
@@ -80,7 +87,57 @@ header{
 
 /* Main - Boxes */
 
+.box_boxes{
+    display: flex;
+    justify-content: space-evenly; 
+}
 
+.box_boxes1{
+    height: 100px;
+    width: 100px;
+    border: solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+
+  }
+
+.box_boxes2{
+    height: 100px;
+    width: 100px;
+    border: solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; 
+  }
+.box_boxes3{
+    height: 100px;
+    width: 100px;
+    border: solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; 
+  }
+.box_boxes4{
+    height: 100px;
+    width: 100px;
+    border: solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; 
+  }
+
+  
+
+.box_text{
+    color: #58616e;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Main - Quote */
 
 
 /* Footer */
