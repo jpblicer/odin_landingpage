@@ -22,37 +22,16 @@ a{
 
 header{
     background-color: #1F2937;
+
 }
 
-.bar{
+.header_left{
+    font-size: 24px;
+    color: #F9FAF8;
     display: flex;
     justify-content: space-around;
 }
 
-
-.bar-logo{
-    font-size: 24px;
-    color: #F9FAF8;
-    flex: 1;
-    padding-top: 25px;
-}
-
-.bar-link{
-    display: flex;
-    padding-top: 25px;
-}
-
-.bar-link1{
-    padding: 0px 10px;
-}
-
-.bar-link3{
-    padding: 0px 10px;
-}
-
-.bar-link2{
-    padding: 0px 10px;
-}
 
 /* Main */
 
